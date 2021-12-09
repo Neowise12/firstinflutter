@@ -18,7 +18,7 @@ class  MyApp extends StatelessWidget {
     // num temp = 11.12; // num dono leta hai
     // var temncp = "tuesday"; // var kpo v data type le leta hai
     return  MaterialApp(
-
+      debugShowCheckedModeBanner: false ,
       themeMode:ThemeMode.light,
       theme: ThemeData(primarySwatch:Colors.purple,
           //primaryTextTheme: GoogleFonts.latoTextTheme()
@@ -29,7 +29,7 @@ class  MyApp extends StatelessWidget {
 
     ),
       // home : HomePage();
-        initialRoute: MyRoutes.loginRoute,
+        initialRoute: MyRoutes.homeRoute,
        routes: {
 
          "/":(context)=> HomePage(),
